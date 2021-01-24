@@ -10266,6 +10266,24 @@ body {
   margin-bottom: 5rem;
 }
 
+#background-featured{
+  background-color: rgba(3, 19, 14, 0.363);
+}
+#gradient-borders{
+
+
+
+
+    border-width: 6px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+  
+}
 .projects-section {
   padding: 10rem 0;
 }
@@ -10275,7 +10293,8 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    /* border-left: 0.5rem solid #64a19d; */
+    
   }
 }
 .projects-section .project-text {
@@ -10351,4 +10370,9 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+.img-carousel {
+  max-width: 100%;
+  height: auto;
 }
