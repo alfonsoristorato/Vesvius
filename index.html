@@ -27,6 +27,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#azienda">Azienda</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#carousel">Galleria</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Progetti</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contacts">Contatti</a></li>
@@ -41,12 +42,12 @@
             <source src="assets/videos/video.mp4" type="video/mp4">
         </video>
         <!-- Masthead-->
-        <header class="masthead">
-            <div class="container d-flex h-100 align-items-center">
-                <div class="mx-auto text-center">
+        <header class="masthead container" >
+            <div class="row d-flex h-100 align-items-center">
+                <div class="col-lg-12 mx-auto text-center">
                     <h1 class="mx-auto my-0 text-uppercase">Stiamo emergendo...</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Vesvius e' quasi pronta a farvi vedere cosa abbiamo in serbo...</h2>
-                    <a class="js-scroll-trigger" href="#carousel"><i class="fas fa-anchor fa-5x"></i></a>
+                    <!-- <h2 class="text-white-50 mx-auto mt-2 mb-5">Vesvius e' quasi pronta a farvi vedere cosa abbiamo in serbo...</h2> -->
+                    <a class="js-scroll-trigger" href="#azienda" ><i class="fas fa-angle-down down-arrow" ></i></a>
                     
                 </div>
             </div>
@@ -68,6 +69,30 @@
                 <img class="img-fluid" src="assets/img/ipad.png" alt="" />
             </div>
         </section> -->
+        <div class="projects-section bg-light" id="azienda">
+            <div class="container">
+                <div class="row justify-content-center no-gutters">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid" src="assets/img/azienda.jpg" alt="" /></div>
+                    <div class="col-xl-4 col-lg-5 order-lg-first">
+                        <div class="background-dark gradient-borders text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="featured-text text-center text-lg-left">
+                                    <h4 class="text-white">L’AZIENDA</h4>
+                                    <p class="text-white-50 mb-0">Qualità, innovazione, futuro… questa è VESVIUS!
+                                        Un’azienda giovane e dinamica che non vede l’ora di dimostrare al mondo di cosa è capace.
+                                        Vi mostrerà che i limiti sono fatti per essere oltrepassati e che le migliori performance si ottengono grazie alla passione unita alla tecnologia. 
+                                        Formata e sviluppata da un Team esperto vi farà immergere nel mondo dei materiali compositi avanzati, offrendovi prodotti Made in Italy che rasenteranno la perfezione.
+                                        Nata per affiancarvi nei momenti più emozionanti della vostra vita. 
+                                        Nello sport, nel tempo libero ed in tutte le vostre avventure, VESVIUS si dimostrerà il partner ideale.
+                                    </p>
+                                    <!-- <hr class="d-none d-lg-block mb-0 mr-0" /> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <section class="text-center">
             <div class="container-fluid">
             <div id="carousel" class="gradient-borders carousel slide col-lg-12 container background-dark" data-ride="carousel">
@@ -78,24 +103,24 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="img img-fluid img-carousel" src="assets/img/steel.jpeg" alt="...">
+                        <img class="img img-carousel img-carousel" src="assets/img/prodottiQualita.jpg" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>ESEMPIO: METALLO</h5>
-                            <p>DIMMI COSA CI VUOI SCRITTO</p>
+                            <h5>Prodotti di qualità 100% Made in Italy</h5>
+                            <!-- <p>DIMMI COSA CI VUOI SCRITTO</p> -->
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="img img-fluid img-carousel" src="assets/img/precision.jpeg" alt="...">
+                        <img class="img img-carousel img-carousel" src="assets/img/maestriFibre.jpg" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>ESEMPIO: PRECISIONE</h5>
-                            <p>DIMMI COSA CI VUOI SCRITTO</p>
+                            <h5>Le migliori fibre in commercio</h5>
+                            <!-- <p>DIMMI COSA CI VUOI SCRITTO</p> -->
                         </div>
                     </div>
                 <div class="carousel-item">
-                        <img class="img img-fluid img-carousel" src="assets/img/engineering.jpeg" alt="...">
+                        <img class="img img-carousel img-carousel" src="assets/img/tecnologiaAvanguardia.jpg" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>ESEMPIO: INGEGNERIA</h5>
-                            <p>DIMMI COSA CI VUOI SCRITTO</p>
+                            <h5>Tecnologia all’avanguardia</h5>
+                            <!-- <p>DIMMI COSA CI VUOI SCRITTO</p> -->
                         </div>
                 </div>
                 <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -117,23 +142,30 @@
             <div class="container">
                 <!-- Featured Project Row-->
                 <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/swimmingfins.jpg" alt="" /></div>
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/maestriFibre.jpg" alt="" /></div>
                     <div class="background-dark col-xl-4 col-lg-5" >
                         <div class="gradient-borders featured-text text-center text-lg-left" id="featured-project">
                             <h4 class="text-white">Maestri nella lavorazione delle fibre</h4>
-                            <p class="text-white-50 mb-0">Il testo e' scritto a caso, dovrai dirmi tu cosa preferisci inserirci, stessa cosa per l'immagine Il testo e' scritto a caso, dovrai dirmi tu cosa preferisci inserirci, stessa cosa per l'immagine Il testo e' scritto a caso, dovrai dirmi tu cosa preferisci inserirci, stessa cosa per l'immagine Il testo e' scritto a caso, dovrai dirmi tu cosa preferisci inserirci, stessa cosa per l'immagine Il testo e' scritto a caso, dovrai dirmi tu cosa preferisci inserirci, stessa cosa per l'immagine Il testo e' scritto a caso, dovrai dirmi tu cosa pr </p>
+                            <p class="text-white-50 mb-0">Giovani sì, ma il know-how non manca!
+                                Il team VESVIUS non è di certo alle prime armi.
+                                Conoscenze consolidate nel settore aereospaziale e della F1 portano la VESVIUS a collaborare con esperti provenienti dai settori con il più alto livello tecnologico esistente.
+                                La scrupolosa selezione e combinazione delle materie prime, lavorate in processi innovativi, rendono i prodotti VESVIUS adatti al mercato d’eccellenza e capaci di soddisfare il pubblico più esigente. 
+                            </p>
                         </div>
                     </div>
                 </div>
                 <!-- Project One Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/industrial1.jpg" alt="" /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/manufatti1.jpg" alt="" /></div>
                     <div class="col-lg-6">
                         <div class="background-dark gradient-borders text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Lavorazione di 1</h4>
-                                    <p class="mb-0 text-white-50">Magari qui del testo su come vi occupate di un altra cosa</p>
+                                    <h4 class="text-white">Manufatti sportivi High-Performance</h4>
+                                    <p class="mb-0 text-white-50">VESVIUS non cerca il compromesso, ma la perfezione. 
+                                        Rivolta ad atleti professionisti studia e produce prodotti ineguagliabili, 
+                                        con i quali poter oltrepassare il limite.
+                                    </p>
                                     <!-- <hr class="d-none d-lg-block mb-0 ml-0" /> -->
                                 </div>
                             </div>
@@ -142,13 +174,18 @@
                 </div>
                 <!-- Project Two Row-->
                 <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/industrial2.jpg" alt="" /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/ricerca.jpg" alt="" /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="background-dark gradient-borders text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Lavorazione di 2</h4>
-                                    <p class="mb-0 text-white-50">Magari qui del testo su come lavorate un tipo di fibra</p>
+                                    <h4 class="text-white">Ricerca e sviluppo</h4>
+                                    <p class="mb-0 text-white-50">
+                                        Il mondo è da sempre in continua evoluzione. Storicamente c’è sempre stato chi ha fatto la differenza, 
+                                        con le sue scoperte, le sue invenzioni e la sua perseveranza. 
+                                        VESVIUS non vuole essere da meno. Con progetti ambiziosi, aspira ad essere protagonista di un domani 
+                                        sempre più evoluto e sostenibile.  
+                                    </p>
                                     <!-- <hr class="d-none d-lg-block mb-0 mr-0" /> -->
                                 </div>
                             </div>
